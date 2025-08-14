@@ -1,4 +1,4 @@
-# Comparative-Analysis-of-ML-Models-for-Predicting-the-Daily-Sign-of-S-P-500-Returns
+# Comparative Analysis of ML-Models for Predicting the Daily Sign of S&P 500 Returns
 
 ## Project Overview
 
