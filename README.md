@@ -1,5 +1,15 @@
 # Comparative Analysis of Supervised Learning for Daily S&P 500 Directional Forecasting
 
+## TLDR
+
+* Built and back-tested a machine learning signal generator for algorithmic trading, forecasting S&P 500 daily returns.
+
+* Achieved a statistically significant predictive edge with a 54% hit rate, a crucial margin for generating positive expectancy and long-term profitability in systematic strategies.
+
+* Implemented K-Fold cross-validation and Grid Search to optimize model robustness and tune SVM hyperparameters.
+
+* Analyzed model bias, inferring from the confusion matrix that the edge was primarily in identifying positive-return days.
+
 ### Project Overview
 
 This project develops and evaluates a machine learning framework to forecast the daily price direction of the S&P 500 index. Using lagged returns as features, a comparative analysis of several classification models (Logistic Regression, LDA, QDA, SVM) was performed. The framework includes robust validation via K-Fold Cross-Validation and hyperparameter optimization using `GridSearchCV` to build a reliable and statistically sound forecasting model.
